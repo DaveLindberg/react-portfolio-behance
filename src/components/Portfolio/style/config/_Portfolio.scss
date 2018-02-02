@@ -3,6 +3,8 @@
   width: $portfolio-w;
   margin: #{$portfolio-margin-h} auto;
   box-shadow: $portfolio-shadow;
+  grid-column: 1 / 4 ;
+  grid-row: 4 / 4;
 
   .Portfolio__bg {
     position: fixed;

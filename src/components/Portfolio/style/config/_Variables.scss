@@ -7,13 +7,13 @@ $color-green: #4caf50;
 $color-red: #f44336;
 $color-blue: #2196f3;
 $color-yellow: #ffc107;
-$color-special: #2c2d3d;
-$bg-body: darken($color-special, 5%);
+$color-special: #ffffff;
+$bg-body: #ffffff; //darken($color-special, 5%);
 
 $transition-type-a: all 1s ease-in-out;
 $transition-type-b: all .2s linear;
 
-$gap: 15px;
+$gap: 0px;
 
 // Media Query
 
@@ -24,13 +24,13 @@ $medias: (
   (size: 1200px, initials: lg) // Extra large devices (large desktops, 1200px and up)
 );
 
-$columns: 12;
+$columns: 8;
 
 // Portfolio
 
 $portfolio-w: 90%;
 $portfolio-margin-h: 5%;
-$portfolio-shadow: 0 0 5px rgba($color-black, .1), 0 0 40px rgba($color-black, .2), 0 0 90px rgba($color-black, .3);
+$portfolio-shadow: none; //0 0 5px rgba($color-black, .1), 0 0 40px rgba($color-black, .2), 0 0 90px rgba($color-black, .3);
 $portfolio-opacity-card-hover: .5;
 $portfolio-user-w: 100%;
 $portfolio-user-h: 600px;
@@ -42,8 +42,8 @@ $portfolio-user-bg-opacity: .4;
 $portfolio-user-content-p-width: 90%;
 $portfolio-user-content-p-max-width: 750px;
 $portfolio-user-content-p-margin: $gap;
-$portfolio-user-content-img-border: 50%; 
-$portfolio-user-content-h1-bg: linear-gradient(rgba($color-white, .7) 50%, rgba($color-white, .6) 50%); 
+$portfolio-user-content-img-border: 50%;
+$portfolio-user-content-h1-bg: linear-gradient(rgba($color-white, .7) 50%, rgba($color-white, .6) 50%);
 $portfolio-user-content-h1-font-size: 80px;
 $portfolio-user-content-h5-font-size: 30px;
 $portfolio-user-features-margin: -1px 0 0;
@@ -56,25 +56,25 @@ $portfolio-user-info-margin: $gap * 2;
 $badge-padding: 2px 8px;
 $badge-margin: 0 3px 3px 0;
 $badge-border-radius: 2px;
-$badge-background-color: darken($color-white, 15%);
+$badge-background-color: lighten(#CC9900, 50%);
 $badge-font-size: 10px;
 
 // Component Button
 
 $btn-font-size: 12px;
-$btn-font-weight: 600;
-$btn-padding: 10px #{$gap};
+$btn-font-weight: 400;
+$btn-padding: .5em 1em;
 $btn-border-radius: 4px;
 
-$btn-default-color: $color-white;
+$btn-default-color: #CC9900;
 $btn-default-color-hover: $color-black;
 $btn-default-background-color: transparent;
 $btn-default-background-color-hover: $color-white;
 
-$btn-primary-color: $color-black;
-$btn-primary-color-hover: $color-white;
+$btn-primary-color: #CC9900;
+$btn-primary-color-hover: #999900;
 $btn-primary-background-color: transparent;
-$btn-primary-background-color-hover: darken($color-special, 10%);
+$btn-primary-background-color-hover: #ffffff;
 
 // Component Card
 
@@ -90,13 +90,13 @@ $card-thumbnail-blur: blur(10px);
 $card-details-div-padding: 2px 5px;
 $card-details-div-margin: 0 0 0 8px;
 $card-details-border-radius: 2px;
-$card-footer-padding: $gap;
+$card-footer-padding: 1.5em;
 $card-footer-small-margin: #{$gap} 0 0;
 $card-footer-small-font-weight: 200;
 $card-footer-h2-font-weight: 200;
 $card-footer-h2-margin: 5px 0 0 0;
 $card-footer-footer-margin: 0;
-$card-footer-footer-padding: 5px 0px;
+$card-footer-footer-padding: 0 1.5em 1.5em;
 
 // Component Material Icons
 
