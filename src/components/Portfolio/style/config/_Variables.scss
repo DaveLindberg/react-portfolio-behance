@@ -53,10 +53,10 @@ $portfolio-user-info-margin: $gap * 2;
 
 // Component Badge
 
-$badge-padding: 2px 8px;
-$badge-margin: 0 3px 3px 0;
+$badge-padding: 0px 2px;
+$badge-margin: 0 3px 0 0;
 $badge-border-radius: 2px;
-$badge-background-color: lighten(#CC9900, 50%);
+$badge-background-color: none;
 $badge-font-size: 10px;
 
 // Component Button
@@ -66,15 +66,15 @@ $btn-font-weight: 400;
 $btn-padding: .5em 1em;
 $btn-border-radius: 4px;
 
-$btn-default-color: #CC9900;
+$btn-default-color: #999900;
 $btn-default-color-hover: $color-black;
 $btn-default-background-color: transparent;
 $btn-default-background-color-hover: $color-white;
 
 $btn-primary-color: #CC9900;
-$btn-primary-color-hover: #999900;
+$btn-primary-color-hover: #ffffff;
 $btn-primary-background-color: transparent;
-$btn-primary-background-color-hover: #ffffff;
+$btn-primary-background-color-hover: #999900;
 
 // Component Card
 

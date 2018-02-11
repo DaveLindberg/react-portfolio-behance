@@ -2,16 +2,30 @@
   width: 100%;
   margin: 0 auto;
   padding: 80px 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.2);
   background-color: #ededed; }
   @media (max-width: 1200px) {
     .Footer {
-      justify-content: center; } }
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
   .Footer a:not(.btn):link, .Footer a:not(.btn):visited, .Footer a:not(.btn):hover, .Footer a:not(.btn):focus, .Footer a:not(.btn):active {
     color: currentColor; }
   @media (max-width: 768px) {

@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.2);
-  background-color: #1d1e28; }
+  background-color: #ededed; }
   @media (max-width: 1200px) {
     .Footer {
       justify-content: center; } }
