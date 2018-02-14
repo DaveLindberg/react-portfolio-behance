@@ -11,6 +11,7 @@
 .Grid {
   display: flex; // flex
   flex-wrap: wrap;
+  justify-content: center;
 
   .Grid__cell {
 

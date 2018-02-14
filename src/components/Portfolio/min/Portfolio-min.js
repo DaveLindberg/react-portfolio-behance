@@ -1,6 +1,24 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import './style/main.css';
+import styled from 'styled-components';
+
+const PortHolder = styled.div`
+  grid-column: 1 / 4;
+  grid-row: 7 / 7;
+  ms-grid-column: 1;
+  ms-grid-column-span: 3;
+  ms-grid-row: 7;
+  ms-grid-row-span: 1;
+  @media (max-width: 767px) {
+    grid-column: 1 / 3;
+    grid-row: 9 / 9;
+    ms-grid-column: 1;
+    ms-grid-column-span: 2;
+    ms-grid-row: 7;
+    ms-grid-row-span: 1;
+  }
+`;
 
 class Portfolio extends Component {
   render() {
@@ -13,20 +31,9 @@ class Portfolio extends Component {
     let urlProjects = `${baseUrl}/projects?client_id=${API_KEY}`;
 
     return (
-      <div
-        className="Portfolio"
-        id="design"
-        style={{
-          gridColumn: `1 / 3`,
-          gridRow: `7 / 7`,
-          MsGridColumn: 1,
-          MsGridColumnSpan: 2,
-          MsGridRow: 7,
-          MsGridSpan: 1
-        }}
-      >
+      <PortHolder className="Portfolio" id="design">
         <Projects url={urlProjects} showFeatured={this.props.showFeatured} />
-      </div>
+      </PortHolder>
     );
   }
 }
