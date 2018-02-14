@@ -206,6 +206,17 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
+	"\/src\/components\/Portfolio\/min\/Portfolio-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/components\/Portfolio\/min\/Portfolio-min.js",
+		"outputAbbreviatedPath": "\/src\/components\/Portfolio\/min\/min\/Portfolio-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/components\/Portfolio\/Portfolio.js": {
 		"fileType": 64,
 		"ignore": 0,
